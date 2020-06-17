@@ -26,5 +26,5 @@ def basiccal(string):
         second_last = stack.pop()
       stack.append(temp+last) 
     else:
-      queue = queue + item 
+      queue = queue+item 
   return stack[0]
